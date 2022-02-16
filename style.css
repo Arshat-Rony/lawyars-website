@@ -1,0 +1,167 @@
+/* google font link  */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:wght@400;500;800&family=Outfit&family=Playfair+Display:wght@400;500&family=Poppins:wght@400;500;600&family=Raleway:wght@500;600&family=Roboto:wght@400;500&family=Satisfy&family=The+Nautigal:wght@700&display=swap');
+
+/*common css file  */
+
+
+body {
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
+
+p {
+    margin: 1rem 0;
+}
+
+h3,
+h2,
+h1 {
+    font-family: 'Playfair Display', serif;
+}
+
+
+/* header css  */
+#logobtn {
+    border-radius: 100%;
+    font-weight: 700;
+    background-color: #094B72;
+}
+
+nav ul li {
+    margin-right: 2rem;
+}
+
+
+nav ul {
+    margin-right: 2rem;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+}
+
+/* hero section  */
+
+.h1 {
+    color: #094B72;
+    font-size: 5.5rem;
+}
+
+.contact-header {
+    font-size: 4rem;
+}
+
+.hero-text>p {
+    color: #4F4F4F;
+}
+
+.hero-btn {
+    background-color: #094B72;
+    color: white;
+    width: 100%;
+}
+
+@media(min-width:768px) {
+    .hero-btn {
+        width: 150px;
+    }
+}
+
+.hero-img {
+    padding-right: 3rem;
+    padding-top: 1rem;
+}
+
+
+
+.icon-image {
+    max-width: 100%;
+
+}
+
+
+/* testimonial section  */
+.test-header {
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.testimonial {
+    background-color:
+        #F2FCFF;
+}
+
+.test-formation {
+    min-height: 290px;
+}
+
+.matters-section {
+    background-color: #1282A6;
+    color: white;
+}
+
+@media(min-width:768px) {
+    .counters {
+        position: relative;
+    }
+
+    .counter-highlighted::before {
+        content: "";
+        width: 2px;
+        background-color: #FFFFFF;
+        height: 80px;
+        position: absolute;
+        top: 59px;
+        transform: translate(-135px);
+    }
+
+    .counter-highlighted::after {
+        content: "";
+        width: 2px;
+        background-color: #FFFFFF;
+        height: 80px;
+        position: absolute;
+        top: 59px;
+        transform: translate(135px);
+    }
+
+
+}
+
+
+.clients-testimonial {
+    background-color: #F4FBFF;
+}
+
+.client-comment {
+    /* min-Width: 400px; */
+    min-Height: 300px;
+    position: relative;
+}
+
+.client-comment i {
+    font-size: 2rem;
+
+
+    position: absolute;
+    bottom: -20px;
+    transform: translate(50%);
+}
+
+.footer-section {
+    background-color: #0F6E8C;
+    color: white;
+}
+
+.footer-section ul li {
+    text-transform: capitalize;
+}
+
+.social-links {
+    background-color:
+        #05546D;
+}
+
+.social-links ul li i {
+    margin-right: 13px;
+    font-size: 1.2rem;
+}
